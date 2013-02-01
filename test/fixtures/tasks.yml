@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  day: 2013-02-02
+  pl_hour: 9.99
+  ft_hour: 9.99
+  pd_hour: 9.99
+  ot_hour: 9.99
+
+two:
+  name: MyString
+  day: 2013-02-02
+  pl_hour: 9.99
+  ft_hour: 9.99
+  pd_hour: 9.99
+  ot_hour: 9.99

@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @task.name %>
+</p>
+
+<p>
+  <b>Day:</b>
+  <%= @task.day %>
+</p>
+
+<p>
+  <b>Pl hour:</b>
+  <%= @task.pl_hour %>
+</p>
+
+<p>
+  <b>Ft hour:</b>
+  <%= @task.ft_hour %>
+</p>
+
+<p>
+  <b>Pd hour:</b>
+  <%= @task.pd_hour %>
+</p>
+
+<p>
+  <b>Ot hour:</b>
+  <%= @task.ot_hour %>
+</p>
+
+
+<%= link_to 'Edit', edit_task_path(@task) %> |
+<%= link_to 'Back', tasks_path %>
